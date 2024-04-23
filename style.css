@@ -17,7 +17,7 @@ body {
 }
 .card {
   width: 640px;
-  height: 400px;
+  /* height: 400px;  */
   position: absolute;
   margin: auto;
   left: 0;
@@ -29,8 +29,8 @@ body {
   transition: 1s;
   /* width: 80%;
   max-width: 640px; /* Maintain a maximum width */
-  height: auto; /* Let the height adjust based on content */
-  margin: auto; */
+  height: auto; 
+  /* margin: auto;  */
 }
 .card:hover {
   transform: rotate(-5deg);
